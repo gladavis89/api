@@ -13,16 +13,16 @@
 </head>
 
 <body>
-    <div id="panel">
+    <div id="panel" style="height: fit-content;">
         <!-- //////////////navigation//////////////// -->
         <header>
             <nav class="navbar nav bg-dark">
                 <div class="navbar-brand">
                     <h2 style="color: rgba(240, 255, 240, 0.87)">Easy Gif</h2>
                 </div>
-                <form class="form-check-inline" type="text" rows="1">
-                    <label class="nav btn bg-success mx-1" id="search">====> Make more buttons!</label>
-                    <input class="form-control mr-sm-2" type="search" placeholder="Input" aria-label="Search" id="input"> </form>
+                <form class="form-check-inline row" type="text" rows="1">
+                    <label class="nav btn bg-success mx-1 col-4" id="search">Generator</label>
+                    <input class="form-control mr-sm-2 my-1 col-7" type="search" placeholder="Input" aria-label="Search" id="input"> </form>
             </nav>
         </header>
         <!-- //////////////////////////////////////////////////// -->
@@ -44,14 +44,15 @@
             </div>
         </main>
         <!-- ///////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-        <footer class="footer">
-            <p class="container-fluid" style="position: absolute; bottom: 0;display:flex; justify-content: center"> Website created by
-                <a href="https://dtechdev.com">GarrettLee A Davis</a>.
-            </p>
-        </footer>
+        
     </div>
+    <footer class="footer container-fluid" style=" justify-content: center; position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;background-color: lightblue" > Website created by
+                <a href="https://dtechdev.com">GarrettLee A Davis</a>.
+            
+        </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="app.js"></script>
+   
 </body>
 
 </html>
